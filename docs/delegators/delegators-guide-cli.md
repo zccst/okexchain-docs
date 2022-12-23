@@ -1,3 +1,7 @@
+<!--
+order: 1
+-->
+
 # Delegator Guide (CLI)
 
 This document contains all the necessary information for delegators to interact with OKC through the Command-Line Interface (CLI).
@@ -27,7 +31,7 @@ Please exercise extreme caution!
 - [Installing `exchaincli`](#installing-exchaincli)
 - [OKC Accounts](#okchian-accounts)
     + [Creating an Account](#creating-an-account)
-- [Accessing the OKC Network](#accessing-the-okc-network)
+- [Accessing the OKC Network](#accessing-the-oec-network)
     + [Running Your Own Full-Node](#running-your-own-full-node)
     + [Connecting to a Remote Full-Node](#connecting-to-a-remote-full-node)
 - [Setting Up `exchaincli`](#setting-up-exchaincli)
@@ -48,7 +52,7 @@ Please exercise extreme caution!
 [**Download the binaries**]
 Not available yet.
 
-[**Install from source**](../getting-start/install-okc.html)
+[**Install from source**](../getting-start/install-oec.html)
 
 `exchaincli` is used from a terminal. To open the terminal, follow these steps:
 - **Windows**: `Start` > `All Programs` > `Accessories` > `Command Prompt`
@@ -151,7 +155,7 @@ In order to query the state and send transactions, you need a way to access the 
 
 This is the most secure option, but comes with relatively high resource requirements. In order to run your own full-node, you need good bandwidth and at least 1TB of disk space.
 
-You will find the tutorial on how to install `exchaind` [here](https://www.okx.com/cn/okc/docs/dev/docs/getting-start/install-okc.html) and the guide to run a full-node [here](https://www.okx.com/cn/okc/docs/dev/docs/getting-start/join-okc-testnet.html).
+You will find the tutorial on how to install `exchaind` [here](https://okc-docs.readthedocs.io/en/latest/getting-start/install-oec.html and the guide to run a full-node [here](https://okc-docs.readthedocs.io/en/latest/getting-start/join-oec-testnet.html).
 
 ### Connecting to a Remote Full-Node
 
@@ -162,7 +166,7 @@ In order to connect to the full-node, you will need an address of the following 
 ## Setting Up `exchaincli`
 
 
-**Before setting up `exchaincli`, make sure you have set up a way to [access the OKC network](#accessing-the-okc-network)**  
+**Before setting up `exchaincli`, make sure you have set up a way to [access the OKC network](#accessing-the-oec-network)**  
 
 > _NOTE_:  
 **Please check that you are always using the latest stable release of `exchaincli`**

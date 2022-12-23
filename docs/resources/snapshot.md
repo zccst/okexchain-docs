@@ -1,3 +1,4 @@
+
 # OKC Snapshot
 
 Quick instructions on how to install the OKC snapshots.
@@ -29,5 +30,5 @@ For the differences between snapshots, please refer to：[this](https://forum.ok
 mv ~/.exchaind/data ~/.exchaind/data-bak
 # rm -rf ~/.exchaind/data
 cd ~/.exchaind 
-tar -zxvf exchain-$version-$date-$height_xxx.tar.gz
+tar -zxvf okexchain-$version-$date-$height_xxx.tar.gz
 ```

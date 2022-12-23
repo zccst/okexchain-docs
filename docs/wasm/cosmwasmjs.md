@@ -4,8 +4,10 @@ This article focuses on how to use CosmoWasmJS for connectiong to OKC nodes and 
 
 | Project | Description | 
 | :-----| :----| 
-| ComWasmJs | A JS SDK for smart contract interactions provided by CosmWasm. ComWasmJs is developed based on ComJs. | 
-| ComJs | The JS SDK that Cosmos SDK provides to interact with nodes. | 
+| ComWasmJs | A JS SDK for smart contract interactions provided by CosmWasm. ComWasmJs is developed based on ComJs.
+| 
+| ComJs | The JS SDK that Cosmos SDK provides to interact with nodes.
+| 
 
 **Note: If you want a more detailed explanation of CosmWasmJS and wasm smart contract interactions, please refer to [CosmWasmJS](https://cosmwasm.github.io/CosmWasmJS/)**
 
@@ -14,13 +16,13 @@ Need to install [Node](https://nodejs.org/en/download/) while using CosmoWasmJS
 ## Choice of network
 You can choose between mainnet, testnet or local testnet.
 ### Mainnet
-There is no need to build nodes on the main network, and the development of OKCWasm contracts can directly access the RPC node services provided by OKC. If you need to build your own testnet node, please refer to [mainnet node set up](https://www.okx.com/cn/okc/docs/dev/docs/getting-start/join-okc-mainnet.html).
+There is no need to build nodes on the main network, and the development of OKCWasm contracts can directly access the RPC node services provided by OKC. If you need to build your own testnet node, please refer to [mainnet node set up](https://okc-docs.readthedocs.io/en/latest/getting-start/join-oec-mainnet.html).
 
 Below is the URL of the mainnet RPC node
 > const rpcEndpoint = "https://exchaintmrpc.okex.org"
 ### Testnet
 
-There is no need to build nodes on testnet, and the development of OKCWasm contracts can directly access the RPC node services provided by OKC. If you need to build your own testnet node, please refer to [testnet node set up](https://www.okx.com/cn/okc/docs/dev/docs/getting-start/join-okc-testnet.html).
+There is no need to build nodes on testnet, and the development of OKCWasm contracts can directly access the RPC node services provided by OKC. If you need to build your own testnet node, please refer to [testnet node set up](https://okc-docs.readthedocs.io/en/latest/getting-start/join-oec-testnet.html).
 
 Below is the URL of the testnet RPC node
 > const rpcEndpoint = "https://exchaintesttmrpc.okex.org"
@@ -28,7 +30,7 @@ Below is the URL of the testnet RPC node
 Download the OKC source code and set up the OKC local testnet through the script we provide
 
 ```shell
-git clone https://github.com/okx/exchain.git
+git clone https://github.com/okex/exchain.git
 cd exchain/dev
 sh ./wasm-test.sh 
 ```
@@ -154,4 +156,4 @@ The above only shows how to connect OKC nodes through CosmWasmJS, the actions fo
 | 31 | sign | Sign  transaction| Y |SigningCosmWasmClient  |  |
 
 ## Example
-We provide a Webpack [demo](https://github.com/okx/comswasmjs-client) example. You can follow this example to interact with OKC through your browser and Keplr wallet using CosmWasmJS and Webpack.
+We provide a Webpack [demo](https://github.com/okex/comswasmjs-client) example. You can follow this example to interact with OKC through your browser and Keplr wallet using CosmWasmJS and Webpack.

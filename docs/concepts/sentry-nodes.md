@@ -1,3 +1,7 @@
+<!---
+order: 3
+--->
+
 # Sentry node
 
 Validation nodes need to ensure that the network can withstand distributed denial-of-service (DDoS) attacks.
